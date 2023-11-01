@@ -34,9 +34,9 @@ hostname = -broadcast.chat.bilibili.com, -*cdn*.biliapi.net, -*tracker*.biliapi.
 
 # ======= BiliJson 直播间处理 ======= #
 # ～ BiliBili_哔哩哔哩_屏蔽直播间商品广告浮窗[还有一个域名]@ddgksf2013
-^https?:\/\/api\.live\.bilibili\.com\/xlive\/e-commerce-interface\/v\d\/ecommerce-user\/get_shopping_info\? url script-response-body https://rules-for-qx.sveir.xyz/Scripts/AdBlock/Bilibili/BiliBili.min.js
+# ^https?:\/\/api\.live\.bilibili\.com\/xlive\/e-commerce-interface\/v\d\/ecommerce-user\/get_shopping_info\? url script-response-body https://rules-for-qx.sveir.xyz/Scripts/AdBlock/Bilibili/BiliBili.min.js
 # ～ BiliBili_哔哩哔哩_直播去广告@bm7
-^https?:\/\/api\.live\.bilibili\.com\/xlive\/app-room\/v1\/index\/getInfoByRoom url script-response-body https://rules-for-qx.sveir.xyz/Scripts/AdBlock/Bilibili/BiliBili.min.js
+# ^https?:\/\/api\.live\.bilibili\.com\/xlive\/app-room\/v1\/index\/getInfoByRoom url script-response-body https://rules-for-qx.sveir.xyz/Scripts/AdBlock/Bilibili/BiliBili.min.js
 
 
 # ======= BiliJson 开屏及隐私 ======= #
@@ -70,7 +70,7 @@ hostname = -broadcast.chat.bilibili.com, -*cdn*.biliapi.net, -*tracker*.biliapi.
 # ～ BiliBili_哔哩哔哩_标签页处理@ddgksf2013
 ^https?:\/\/app\.bilibili\.com\/x\/resource\/show\/tab url script-response-body https://rules-for-qx.sveir.xyz/Scripts/AdBlock/Bilibili/BiliBili.min.js
 # ～ BiliBili_哔哩哔哩_我的页面处理@ddgksf2013
-^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/mine url script-response-body https://rules-for-qx.sveir.xyz/Scripts/AdBlock/Bilibili/BiliBili.min.js
+# ^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/mine url script-response-body https://rules-for-qx.sveir.xyz/Scripts/AdBlock/Bilibili/BiliBili.min.js
 # ～ BiliBili_哔哩哔哩_屏蔽首页右上活动@ddgksf2013
 ^https?:\/\/app\.bilibili\.com\/x\/resource\/top\/activity url script-response-body https://rules-for-qx.sveir.xyz/Scripts/AdBlock/Bilibili/BiliBili.min.js
 # ～ BiliBili_哔哩哔哩_热搜发现@ddgksf2013
